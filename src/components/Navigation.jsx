@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Logo from "../assets/Logo";
-import "./navigation.css";
+import "./Navigation.css";
 
 const Navigation = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
