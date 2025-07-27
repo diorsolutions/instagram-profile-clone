@@ -9,7 +9,7 @@ const RelatedAccounts = () => {
         <div className="related_accounts_container">
           <FaChevronRight className="see_more" />
 
-          <div className="like_slider_container">
+          <div className="like_slider_container hidden">
             <IoClose className="close_button" />
             <div className="image_box">
               <img src="/download.jpg" />

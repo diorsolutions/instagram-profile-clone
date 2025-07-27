@@ -20,14 +20,26 @@
   color: white;
   font-size: 16px;
   font-weight: 600;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 
+.buttons .btn:hover {
+  transition: all 0.3s ease;
+  background-color: #4a5ef9af;
+}
+
 .buttons .singIn {
+  transition: all 0.3s ease;
   color: white;
   border: none;
   outline: none;
   background: none;
+}
+
+.buttons .singIn:hover {
+  transition: all 0.3s ease;
+  background-color: rgba(90, 96, 254, 0.306);
 }
 
 div svg {

@@ -41,6 +41,9 @@
 .btns {
   gap: 10px;
 }
+.btn:hover {
+  background-color: #4a5ef9d1;
+}
 .btn {
   padding: 12px 20px;
   border-radius: 14px;
@@ -50,6 +53,11 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+.message:hover {
+  background-color: #c1c2ce41;
+}
+
 .message {
   background: #6969696a;
   border: none;
@@ -92,6 +100,11 @@
   gap: 6px;
 }
 .info_section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
   padding-left: 20px;
 }
 .info_section span,
@@ -115,8 +128,9 @@ ul li {
 }
 
 .info_section .link {
-  margin-left: -55px;
-  margin-top: -13px;
+  margin-left: -30px;
+  color: #c7ceff;
+  margin-top: -20px;
   display: flex;
   gap: 20px;
   align-items: center;

@@ -14,7 +14,7 @@ const MainSection = () => {
           <div className="followers_section">
             <div className="username">
               <p>
-                LoremIpsum <MdVerified />
+                DiorSolutions <MdVerified className="responsive" />
               </p>
               <div className="btns">
                 <button className="btn follow">Follow</button>
@@ -28,7 +28,7 @@ const MainSection = () => {
                 <p>posts</p>
               </div>
               <div className="box follows">
-                <h4>1.5</h4>
+                <h4>1.5k</h4>
                 <p>followers`</p>
               </div>
               <div className="box following">
@@ -47,7 +47,7 @@ const MainSection = () => {
               <li>Xonqa shaxri: 99238819</li>
               <div className="link">
                 <IoIosLink />
-                <a href="@">https://www.diorsolutions,site</a>
+                <a href="#">https://www.diorsolutions,site</a>
               </div>
             </ul>
           </div>
