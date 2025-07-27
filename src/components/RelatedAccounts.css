@@ -1,0 +1,113 @@
+.related_accounts_container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.like_slider_container {
+  border-radius: 8px;
+  padding: 30px 20px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.258);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.btn_see_more {
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background: none;
+  color: rgb(67, 138, 231);
+  outline: none;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.for_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_see_more:hover {
+  color: rgba(79, 79, 255, 0.53);
+}
+.see_more {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  right: 200px;
+  top: 128rem;
+  color: black;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 25px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+.see_more:hover {
+  background-color: black;
+  color: white;
+}
+
+.image_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.image_box img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info_box_slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  gap: 6px;
+}
+.accounts {
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.614);
+}
+.info_box_slider h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+.info_box_slider p {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.635);
+}
+.info_box_slider button {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  /* border: 1px solid rgba(255, 255, 255, 0.21); */
+  background-color: rgba(87, 87, 87, 0.347);
+  outline: none;
+}
+.close_button {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  color: white;
+}
+.close_button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.last_container {
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.45);
+}

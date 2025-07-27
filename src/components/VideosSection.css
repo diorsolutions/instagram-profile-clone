@@ -1,0 +1,26 @@
+.VideButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 70px;
+}
+.underLinder {
+  width: 50px;
+  background-color: white;
+  height: 3px;
+  margin-left: 30px;
+}
+.icons_size {
+  font-size: 24px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.533);
+}
+.icons_size.actives {
+  color: white !important;
+}
+.underline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

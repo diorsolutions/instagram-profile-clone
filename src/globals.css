@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body.dark-theme {
+  background-color: black;
+  color: white;
+}
+.wrapper {
+  overflow: hidden;
+  max-width: 1160px;
+  margin: auto;
+}

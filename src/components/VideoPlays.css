@@ -1,0 +1,82 @@
+.grid_templates {
+  display: grid;
+  gap: 10px;
+  margin-top: 3px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container_video_imgs {
+  height: 500px;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  background-image: url(data:image/jpeg;base64,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);
+  border-radius: 8px;
+}
+.container_video_imgs_second {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg);
+}
+
+.container_video_imgs_third {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/624/21/247/microsoft-windows-windows-10-technology-hi-tech-wallpaper-preview.jpg);
+}
+
+.container_video_imgs_forth {
+  background-image: url(https://c1.wallpaperflare.com/preview/552/758/364/computer-laptop-macbook-coding.jpg);
+}
+
+.container_video_imgs_fivth {
+  background-image: url(https://c1.wallpaperflare.com/preview/14/432/956/laptop-computer-dark-room.jpg);
+}
+
+.container_video_imgs_sixth {
+  background-position: center;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/603/260/908/programmers-programming-motivational-code-text-hd-wallpaper-preview.jpg);
+}
+
+.container_video_imgs:hover {
+  background-color: rgba(95, 95, 95, 0.663);
+}
+.container_video_imgs:hover .container_like_comment {
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.546);
+  display: flex;
+}
+.container_like_comment {
+  transition: all 0.3s ease;
+  display: none;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  gap: 30px;
+  font-size: 25px;
+}
+
+.container_like_comment:hover {
+  cursor: pointer;
+}
+.container_like_comment p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_like_comment p .like_button,
+.container_like_comment p .comment_button {
+  transition: all 0.2s ease;
+  font-size: 27px;
+}
+
+.container_like_comment p .like_button:hover {
+  color: rgb(255, 0, 0);
+}
+
+.container_like_comment p .comment_button:hover {
+  color: rgba(243, 243, 243, 0.719);
+}

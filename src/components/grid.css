@@ -1,0 +1,32 @@
+.grid_container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  padding-left: 10px;
+  margin: 0 0 80px 0;
+}
+.grid_container .grid_areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.grid_container .grid_areas img {
+  opacity: 0.8;
+  width: 144px;
+  border-radius: 50%;
+}
+
+.grid_areas {
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.grid_areas:hover img {
+  opacity: 0.6;
+  transition: all 0.2s ease;
+  transform: scale(1.025);
+}
